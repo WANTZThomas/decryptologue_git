@@ -8,16 +8,21 @@
         while (have_posts()){
             the_post();
     ?>
-            <h1><?php the_title(); ?></h1>
-            <h2>Posté le <?php the_time('F jS, Y') ?></h2>
-            <p><?php the_content(); ?></p>
-            <div class="container">
-                <div class="row">
-                    <div class="rol">
-                        Helooodsfosdofosd
-                    </div>
-                </div>
-            </div>
+    <div class="container">
+        yo
+    </div>
+    <div class="container"></div>
+    <div class="container d-flex flex-wrap">
+        <div class="d-flex type1">
+            <p>salut</p>
+        </div>
+        <div class="d-flex type2">
+                <p>hehedsfs</p>
+        </div>
+        <div class="d-flex type3">
+            <p>test</p>
+        </div>
+    </div>
     <?php
     }
     }

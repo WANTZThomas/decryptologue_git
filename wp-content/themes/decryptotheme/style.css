@@ -4,3 +4,25 @@ Author: Grégoire Puget
 Author URI: http://monsiteweb.com
 Description: Mon premier thème WordPress !
 */
+
+
+
+.type1{
+    background-color: blue;
+    width: 280px;
+    height: 390px;
+}
+
+.type2
+{
+    background-color: green;
+    width: 580px;
+    height: 390px;
+}
+
+.type3
+{
+    background-color: blueviolet;
+    width: 280px;
+    height: 800px;
+}

@@ -14,7 +14,6 @@
 
         <!-- Appel du fichier style.css de notre thème -->
         <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
-
         <!--
             Tout le contenu de la partie head de mon site
          -->
