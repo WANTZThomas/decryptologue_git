@@ -1,3 +1,12 @@
+<?php // SYNTAXE : wp_nav_menu( array $args = array() )
+  $args=array(
+    'theme_location' => 'topBar', // nom du slug
+    'menu' => 'topBar_fr', // nom à donner cette occurence du menu
+    'menu_class' => 'menu_topBar', // class à attribuer au menu
+    'menu_id' => 'topBar_id' // id à attribuer au menu
+    // voir les autres arguments possibles sur le codex
+  );
+?>
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
     <head>
